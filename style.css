@@ -1,0 +1,64 @@
+label, input, select, button {
+   font-size: inherit;
+   padding: 0.75em .75em;
+   margin: 0.2em 0.4em;
+   -moz-box-sizing: content-box;
+   -webkit-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+select:required:invalid {
+   color: gray;
+}
+
+option[value=""][disabled] {
+   display: none;
+}
+
+option {
+   color: black;
+ }
+
+.main-body {
+   max-width: 800px;
+   margin: auto;
+}
+
+.todos-header {
+   font-family: "Palatino Linotype", Helvetica;
+   text-align: center;
+}
+
+.centered {
+   text-align: center;
+   margin: 0px;
+}
+
+.button {
+   cursor: pointer;
+   color: white;
+   border: 2px;
+   display: inline-block;
+}
+
+.add-button {
+   background: #0099CC;
+}
+.add-button:active {
+   background: #0099CC;
+}
+.add-button:hover {
+   background: #12ABDE;
+}
+
+.clear-button, .clear-button:active {
+   background: #e62739;
+}
+
+.clear-button:hover {
+   background: #f8394B;
+}
+
+.todo-ul {
+  list-style-type: none;
+}
