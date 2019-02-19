@@ -4,6 +4,7 @@
 <head>
    <meta charset="utf-8">
    <title>ToDos</title>
+   <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,12 +14,14 @@
          <input class="todo-input" placeholder="Enter a ToDo here...">
          <select required class="todo-priority">
             <option value="" disabled selected>Priority</option>
-            <option value="Minor">Minor</option>
-            <option value="Important">Important</option>
-            <option value="Urgent">Urgent</option>
+            <option value="minor">minor</option>
+            <option value="important">important</option>
+            <option value="urgent">urgent</option>
          </select>
          <button class="add-button button">Add ToDo</button>
          <button class="clear-button button">Clear all ToDos</button>
+      </div>
+      <div class="todo-list">
          <ul class="todo-ul"></ul>
       </div>
    </div> 
