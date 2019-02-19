@@ -103,6 +103,10 @@ option {
    margin: 40px 20px 0;
 }
 
+.todo-priority {
+   cursor: pointer;
+}
+
 .todo-ul {
   list-style-type: none;
 }
